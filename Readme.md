@@ -62,20 +62,20 @@ Ask DocGenius is a web-based application that allows users to upload PDF documen
 ```bash
 git clone https://github.com/your-username/ask-docgenius.git
 cd ask-docgenius
-2. Create a Virtual Environment (Recommended)
+### 2. Create a Virtual Environment (Recommended)
 python -m venv venv
 source venv/bin/activate     # Windows: venv\Scripts\activate
 
-3. Install Dependencies
+### 3. Install Dependencies
 pip install -r requirements.txt
 
-🔐 Environment Setup
+### 🔐 Environment Setup
 
 Create a .env file in the project root:
 
 GOOGLE_API_KEY=your_google_gemini_api_key
 
-▶️ Usage
+### ▶️ Usage
 
 Run the Streamlit application:
 
@@ -86,7 +86,7 @@ Open your browser at:
 
 http://localhost:8501
 
-🧠 Model Configuration
+### 🧠 Model Configuration
 
 Embedding Model: all-MiniLM-L6-v2
 
@@ -96,7 +96,7 @@ Temperature: 0
 
 QA Chain Type: stuff
 
-🔒 Privacy Considerations
+### 🔒 Privacy Considerations
 
 Embeddings are generated locally
 
@@ -104,7 +104,7 @@ Only relevant document chunks are sent to the language model
 
 Uploaded PDFs are not stored
 
-🚧 Limitations
+### 🚧 Limitations
 
 Single PDF support
 
@@ -112,7 +112,7 @@ No persistent conversation memory
 
 Performance depends on document size and formatting
 
-🛣️ Future Work
+### 🛣️ Future Work
 
 Multi-document querying
 
@@ -124,7 +124,7 @@ Deployment with Docker or cloud services
 
 UI/UX improvements
 
-👩‍💻 Author
+###👩‍💻 Author
 
 Elaa 
 Engineering Student | AI & Machine Learning Enthusiast
