@@ -42,10 +42,14 @@ Ask DocGenius is a web-based application that allows users to upload PDF documen
 
 ## 📁 Project Structure
 
+.
 ├── app.py
 ├── .env
 ├── requirements.txt
 └── README.md
+
+yaml
+Copier le code
 
 ---
 
@@ -62,32 +66,33 @@ Ask DocGenius is a web-based application that allows users to upload PDF documen
 ```bash
 git clone https://github.com/your-username/ask-docgenius.git
 cd ask-docgenius
-### 2. Create a Virtual Environment (Recommended)
+2. Create a Virtual Environment (Recommended)
+bash
+Copier le code
 python -m venv venv
 source venv/bin/activate     # Windows: venv\Scripts\activate
-
-### 3. Install Dependencies
+3. Install Dependencies
+bash
+Copier le code
 pip install -r requirements.txt
-
-### 🔐 Environment Setup
-
+🔐 Environment Setup
 Create a .env file in the project root:
 
+env
+Copier le code
 GOOGLE_API_KEY=your_google_gemini_api_key
-
-### ▶️ Usage
-
+▶️ Usage
 Run the Streamlit application:
 
+bash
+Copier le code
 streamlit run app.py
-
-
 Open your browser at:
 
+arduino
+Copier le code
 http://localhost:8501
-
-### 🧠 Model Configuration
-
+🧠 Model Configuration
 Embedding Model: all-MiniLM-L6-v2
 
 Language Model: gemini-2.5-flash
@@ -96,24 +101,21 @@ Temperature: 0
 
 QA Chain Type: stuff
 
-### 🔒 Privacy Considerations
-
+🔒 Privacy Considerations
 Embeddings are generated locally
 
 Only relevant document chunks are sent to the language model
 
 Uploaded PDFs are not stored
 
-### 🚧 Limitations
-
+🚧 Limitations
 Single PDF support
 
 No persistent conversation memory
 
 Performance depends on document size and formatting
 
-### 🛣️ Future Work
-
+🛣️ Future Work
 Multi-document querying
 
 Source citation in answers
@@ -123,8 +125,3 @@ Chat history and memory
 Deployment with Docker or cloud services
 
 UI/UX improvements
-
-###👩‍💻 Author
-
-Elaa 
-Engineering Student | AI & Machine Learning Enthusiast
